@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", "Tahoma", sans-serif;
+    height: 100%;
+}
+.container{
+    max-width: 1310px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+*, *::before , *::after{
+    box-sizing: inherit;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+ul , ol{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
