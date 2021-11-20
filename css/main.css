@@ -8,6 +8,13 @@
   display: none;
 }
 
+.next {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,6 +173,231 @@
     margin-top: 30px;
     margin-left: 10px;
   }
+  .close-modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .close-modal-x {
+    margin-top: 20px;
+  }
+  .close-modal-x--button {
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: transparent;
+  }
+  .close-modal-item {
+    margin: 0;
+    padding: 0;
+  }
+  .close-modal-item--list {
+    margin: 0;
+    padding: 0;
+  }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 810px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 783px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 822px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 804px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 803px;
+    top: 10px;
+  }
 }
 
 @media only screen and (max-width: 861px) {
@@ -179,6 +411,206 @@
   .header__input-image {
     position: relative;
     left: 500px;
+  }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 700px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 673px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 712px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 693px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 693px;
+    top: 10px;
   }
 }
 
@@ -209,6 +641,206 @@
     outline: none;
     border: 2px solid transparent;
   }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 460px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 433px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 472px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 453px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 453px;
+    top: 10px;
+  }
 }
 
 @media only screen and (max-width: 627px) {
@@ -227,6 +859,206 @@
     outline: none;
     border: 2px solid transparent;
   }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 410px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 384px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 422px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 403px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 403px;
+    top: 10px;
+  }
 }
 
 @media only screen and (max-width: 519px) {
@@ -244,6 +1076,206 @@
     padding-right: 205px;
     outline: none;
     border: 2px solid transparent;
+  }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 290px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 264px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 302px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 283px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 283px;
+    top: 10px;
   }
 }
 
@@ -290,6 +1322,22 @@
 .section0 {
   height: 450px;
   background-color: red;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.m-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  background-color: #fff;
+  z-index: 1000;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .section1 {
