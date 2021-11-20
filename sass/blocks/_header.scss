@@ -135,6 +135,80 @@ color: #7B8E98;
     margin-bottom: 32px;
 }
 @media only screen and (max-width:1006px){
+    .headering{
+        // margin-left: 10px;
+        width: 350px;
+        margin-top: 90px;
+    }
+    .headerings{
+        width: 350px; 
+    }
+    .item-about-list{
+        margin-bottom: 16px;
+    }
+    .item-about-list-atribut{
+        font-family: "Nunito" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1A1A1A;
+
+    }
+    .help{
+        margin-left: 30px;
+    }
+    .help-padding{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        font-family: "Nunito" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #1A1A1A;
+        margin-bottom: 4px;
+        &::before{
+            content: "";
+            background-image: url(./../../image/Support.svg);
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 26px;
+            height: 26px;
+            position: relative;
+            // top: 3px;
+            right: 10px;
+        }
+    }
+    .help-spanner{
+        margin: 0;
+        padding: 0;
+        font-family: "Nunito" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #7B8E98;
+        margin-left: 26px;
+    }
+    .help-buttons{
+        background-color: transparent;
+        border-radius: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 2px solid rgb(204, 204, 204);
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
     // .header-atribut-shop{
     //     display: none;
     // }
@@ -1266,6 +1340,7 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:453px){
+
     .header__input-image{
         position: relative;
         left: 200px;
