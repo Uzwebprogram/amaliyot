@@ -1114,7 +1114,7 @@
     width: 8px;
     height: 14px;
     position: relative;
-    left: 290px;
+    left: 260px;
     top: 10px;
   }
   .close-modal-item--list--atribut1 {
@@ -1154,7 +1154,7 @@
     width: 8px;
     height: 14px;
     position: relative;
-    left: 264px;
+    left: 234px;
     top: 10px;
   }
   .close-modal-item--list--atribut2 {
@@ -1299,6 +1299,206 @@
     margin-top: 55px;
     margin-left: -10px;
   }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 260px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 234px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 272px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 253px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 253px;
+    top: 10px;
+  }
 }
 
 @media only screen and (max-width: 398px) {
@@ -1316,6 +1516,206 @@
     padding-right: 105px;
     outline: none;
     border: 2px solid transparent;
+  }
+  .close-modal-item--list--atribut {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut::before {
+    content: "";
+    background-image: url(./../../image/Catalog-x.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 260px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut1::before {
+    content: "";
+    background-image: url(./../../image/likee.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut1::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 234px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut2::before {
+    content: "";
+    background-image: url(./../../image/stick.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut2::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 272px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut3::before {
+    content: "";
+    background-image: url(./../../image/News.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut3::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 252px;
+    top: 10px;
+  }
+  .close-modal-item--list--atribut4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5px;
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  .close-modal-item--list--atribut4::before {
+    content: "";
+    background-image: url(./../../image/Comments.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .close-modal-item--list--atribut4::after {
+    content: "";
+    background-image: url(./../../image/strelka.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: relative;
+    left: 252px;
+    top: 10px;
   }
 }
 
