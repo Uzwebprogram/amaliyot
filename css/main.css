@@ -165,12 +165,20 @@
 }
 
 @media only screen and (max-width: 1006px) {
+  .header__image {
+    margin-top: 20px;
+  }
+  .header__input {
+    margin: 0;
+    padding: 0;
+    margin-top: 36px;
+  }
   .header__icon {
     display: none;
   }
   .header-menu {
     display: block;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 10px;
   }
   .close-modal {
@@ -626,6 +634,9 @@
 }
 
 @media only screen and (max-width: 684px) {
+  .header__image {
+    margin-top: 30px;
+  }
   .header__input-image {
     position: relative;
     left: 400px;
@@ -844,6 +855,9 @@
 }
 
 @media only screen and (max-width: 627px) {
+  .header__image {
+    margin-top: 30px;
+  }
   .header__input-image {
     position: relative;
     left: 300px;
@@ -1062,6 +1076,9 @@
 }
 
 @media only screen and (max-width: 519px) {
+  .header__image {
+    margin-top: 30px;
+  }
   .header__input-image {
     position: relative;
     left: 250px;
@@ -1296,7 +1313,7 @@
     border: 2px solid transparent;
   }
   .header__image {
-    margin-top: 55px;
+    margin-top: 35px;
     margin-left: -10px;
   }
   .close-modal-item--list--atribut {
@@ -1502,6 +1519,9 @@
 }
 
 @media only screen and (max-width: 398px) {
+  .header__image {
+    margin-top: 30px;
+  }
   .header__input-image {
     position: relative;
     left: 150px;
@@ -1513,7 +1533,7 @@
     width: 100%;
     border: none;
     padding-left: 20px;
-    padding-right: 5px;
+    padding-right: 0.1px;
     outline: none;
     border: 2px solid transparent;
   }
