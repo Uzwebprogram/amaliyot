@@ -75,6 +75,7 @@
   color: #000000;
   margin-top: 40px;
   margin-left: 32px;
+  outline: none;
 }
 
 .header-modal {
@@ -165,6 +166,9 @@
 }
 
 @media only screen and (max-width: 1006px) {
+  .nav__link:active {
+    background-color: transparent;
+  }
   .headering {
     width: 350px;
     margin-top: 90px;
@@ -2209,6 +2213,7 @@ body {
 }
 
 .btn {
+  outline: none;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -2337,6 +2342,33 @@ body {
 
 #overlay.active {
   display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .regist-modal {
+    top: -90%;
+  }
+  .regist-modal.active {
+    top: 4%;
+  }
+}
+
+@media only screen and (max-width: 488px) {
+  .regist-modal {
+    max-width: 343px;
+  }
+  .regist-modal--body-email {
+    padding-right: 90px;
+  }
+  .regist-modal--body-paswoord {
+    padding-right: 90px;
+  }
+  .regist-modal--body-regist {
+    width: 290px;
+  }
+  .regist-modal--body-next {
+    width: 290px;
+  }
 }
 
 html {

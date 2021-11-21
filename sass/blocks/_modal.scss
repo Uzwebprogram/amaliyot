@@ -19,6 +19,7 @@
     justify-content: space-between;
 }
 .btn{
+    outline: none;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -130,4 +131,30 @@ outline: none;
 }
 #overlay.active{
     display: block;
+}
+@media only screen and (max-width:1024px){
+    .regist-modal{
+        top: -90%;
+    }
+    .regist-modal.active{
+        top: 4%;
+    }
+}
+@media only screen and (max-width:488px){
+    .regist-modal{
+        max-width: 343px;
+    }
+    .regist-modal--body-email{
+        padding-right: 90px;
+    }
+    .regist-modal--body-paswoord{
+        padding-right: 90px;
+    }
+    .regist-modal--body-regist{
+        width: 290px;
+    }
+    .regist-modal--body-next{
+        width: 290px;
+    }
+
 }
