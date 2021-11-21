@@ -23,32 +23,28 @@
             <div class="header__icon">
               <a href="#"> <img class="header-atribut-shop" src="./image/header-icon-favorites.svg" alt=""></a>
               <a href="#"> <img class="header-atribut-like" src="./image/header-icon-cart.svg" alt=""></a>
-                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <img class="header-modal-image" src="./image/header-dog-icon.svg" width="" alt="">
-                  </button>
-                  
+                      <button class="btn" data-target="#modal1"><img class="regist-button-img" src="./image/header-dog-icon.svg" width="22" height="20"  alt="header-dog-icon"></button>
+
                   <!-- Modal -->
-                  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog header-modal">
-                      <div class="modal-content header-modal-content">
-
-                          <h5 class="modal-title header-regist" id="exampleModalLabel">Регистрация</h5>
-
-                          <button type="button" class="btn-close header-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="modal-body">
-                          <input class="modal-input-email" type="email" placeholder="Email">
-                          <input class="modal-input-paswoord" type="password" placeholder="Пароль">
+                  <div class="regist-modal " id="modal1">
+                    <div class="regist-modal--header">
+                        <p class="regist-modal--header_padding">Регистрация</p>
+                        <button class="regist-modal--header-close" data-target="#modal1"> <img src="./image/Close.svg" width="17" height="20" alt=""></button>
+                    </div>
+                    <div class="regist-modal--body">
+                          <input class="regist-modal--body-email" type="email" placeholder="Email">
+                          <input class="regist-modal--body-paswoord" type="password" placeholder="Пароль">
                         </div>
-                        <p class="header-modal-padding">
+                        <p class="regist-modal--body-padding">
                           Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.
                         </p>
-                          <button type="button" class="btn  modal-button-regist" data-bs-dismiss="modal">Зарегистрироваться</button>
-                          <button type="button" class="btn modal-button-next" data-bs-dismiss="modal" aria-label="Close">Войти</button>
-                      </div>
+                          <button type="button" class="regist-modal--body-regist" data-bs-dismiss="modal">Зарегистрироваться</button>
+                          <button type="button" class="regist-modal--body-next" data-bs-dismiss="modal" aria-label="Close">Войти</button>
                     </div>
-                  </div>
+                </div>
+                <img class="header-menu" src="./image/Menu.svg" width="25" height="15" alt="Menu">
             </div>
-            <img class="header-menu" src="./image/Menu.svg" width="25" height="15" alt="Menu">
+
         </header>
 
     </div>
@@ -204,8 +200,9 @@
 </nav>
   </section>
   <!-- footer end -->
-
-
+  <div  id="overlay">
+            
+  </div>
     <script src="./js/main.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>

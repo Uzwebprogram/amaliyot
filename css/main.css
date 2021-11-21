@@ -2180,6 +2180,165 @@ body {
   }
 }
 
+.regist-modal {
+  position: fixed;
+  top: -70%;
+  left: 50%;
+  width: 100%;
+  max-width: 420px;
+  -webkit-transition: top 1s ease-in-out;
+  transition: top 1s ease-in-out;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  border-radius: 20px;
+  background-color: white;
+  z-index: 2;
+}
+
+.regist-modal.active {
+  top: 10%;
+}
+
+.regist-modal--header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.regist-modal--header-close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transform: translate(-75%, -25%);
+          transform: translate(-75%, -25%);
+}
+
+.regist-modal--header_padding {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.regist-modal--body-email {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 155px;
+  margin-bottom: 8px;
+  border: 1px solid #CFD8DC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7B8E98;
+  margin-left: 20px;
+  outline: none;
+}
+
+.regist-modal--body-email:focus {
+  border: 2px solid #FED700;
+}
+
+.regist-modal--body-paswoord {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 155px;
+  margin-bottom: 8px;
+  border: 1px solid #CFD8DC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7B8E98;
+  margin-left: 20px;
+  outline: none;
+}
+
+.regist-modal--body-paswoord:focus {
+  border: 2px solid #FED700;
+}
+
+.regist-modal--body-padding {
+  max-width: 356px;
+  margin-left: 20px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7B8E98;
+}
+
+.regist-modal--body-regist {
+  border: none;
+  width: 356px;
+  height: 48px;
+  margin-left: 25px;
+  background-color: #FED700;
+  border-radius: 55px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+}
+
+.regist-modal--body-next {
+  width: 356px;
+  height: 48px;
+  margin-left: 25px;
+  background-color: white;
+  border: 1px solid #7B8E98;
+  border-radius: 55px;
+  margin-bottom: 42px;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#overlay.active {
+  display: block;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
