@@ -2371,7 +2371,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 402px) {
+@media only screen and (max-width: 422px) {
   .regist-modal {
     max-width: 343px;
   }
