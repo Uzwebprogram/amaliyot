@@ -1,0 +1,106 @@
+.section0{
+    height: 450px;
+}
+body {
+    overflow-x: hidden;
+}
+.m-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    z-index: 1000;
+    transition: all 1s;
+}
+.home-main-atribut{
+    margin-top: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./../../image/home-main-reklama.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 87px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    border-radius: 20px;
+    &-left{
+        width: 100%;
+        max-width: 390px;
+        &-heading{
+            font-family: "Nunito" , "Arial" , sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 47px;
+            line-height: 50px;
+            color: #FFFFFF;
+        }   
+        &-padding{
+            font-family: "Nunito" , "Arial" , sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FFFFFF;
+
+        }
+    }
+    .home-main-atribut-right-image{
+        position: relative;
+        top: 52px;
+    }
+}
+.home-main-atribut-right-image-mobile{
+    display: none;
+}
+@media only screen and (max-width:829px){
+    .home-main-atribut{
+        margin-top: 40px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(./../../image/home-main-reklama-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    .home-main-atribut-right-image{
+        display: none;
+    }
+    .home-main-atribut-left{
+        margin-left: -80px;
+    }
+    .home-main-atribut-right-image-mobile{
+        display: block;
+        position: relative;
+        top: 56px;
+        border-bottom-right-radius: 20px;
+    }
+
+}
+@media only screen and (max-width:589px){
+    .home-main-atribut-right-image-mobile{
+        display: block;
+        position: relative;
+        top: 52px;
+        border-bottom-right-radius: 20px;
+    }
+.home-main-atribut-left-heading{
+    font-family: "Nunito" , "Arial" , sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21.7573px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.home-main-atribut-left-padding{
+font-family: "Nunito" , "Arial" , sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12.9618px;
+line-height: 15px;
+color: #FFFFFF;
+}
+}
