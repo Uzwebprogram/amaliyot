@@ -158,3 +158,21 @@ outline: none;
     }
 
 }
+@media only screen and (max-width:402px){
+    .regist-modal{
+        max-width: 343px;
+    }
+    .regist-modal--body-email{
+        padding-right: 80px;
+    }
+    .regist-modal--body-paswoord{
+        padding-right: 80px;
+    }
+    .regist-modal--body-regist{
+        width: 290px;
+    }
+    .regist-modal--body-next{
+        width: 290px;
+    }
+
+}
