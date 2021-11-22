@@ -2186,7 +2186,7 @@ body {
 
 .regist-modal {
   position: fixed;
-  top: -70%;
+  top: -90%;
   left: 50%;
   width: 100%;
   max-width: 420px;
@@ -2200,7 +2200,7 @@ body {
 }
 
 .regist-modal.active {
-  top: 10%;
+  top: 15%;
 }
 
 .regist-modal--header {
