@@ -171,11 +171,11 @@
     background-color: transparent;
   }
   .headering {
-    width: 350px;
+    width: 380px;
     margin-top: 90px;
   }
   .headerings {
-    width: 350px;
+    width: 380px;
   }
   .item-about-list {
     margin-bottom: 16px;
@@ -2508,8 +2508,11 @@ body {
   }
   .home-hero-right-image {
     position: relative;
-    bottom: 90px;
     left: 15px;
+  }
+  .home-hero-right-image {
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }
 
