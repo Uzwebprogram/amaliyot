@@ -2294,7 +2294,7 @@ body {
 
 .regist-modal {
   position: fixed;
-  top: -90%;
+  top: -110%;
   left: 50%;
   width: 100%;
   max-width: 420px;
