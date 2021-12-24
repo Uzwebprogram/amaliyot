@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>HorDog</title>
@@ -27,7 +28,7 @@
                       <button class="btn" data-target="#modal1"><img class="regist-button-img" src="./image/header-dog-icon.svg" width="22" height="20"  alt="header-dog-icon"></button>
                 </div>
                   <!-- Modal -->
-                  <div class="regist-modal " id="modal1">
+                  <div class="regist-modal" id="modal1">
                     <div class="regist-modal--header">
                         <p class="regist-modal--header_padding">Регистрация</p>
                         <button class="regist-modal--header-close" data-target="#modal1"> <img src="./image/Close.svg" width="17" height="20" alt=""></button>
@@ -44,6 +45,22 @@
                     </div>
                 <img class="header-menu" src="./image/Menu.svg" width="25" height="15" alt="Menu">
 
+                <div class="regist-modal-enter " id="modal2">
+                  <div class="regist-modal--header-enter">
+                    <button class="regist-modal--header-close-enter" data-target="#modal1"> <i class="previus fa-solid fa-arrow-left"></i></button>
+                      <p class="regist-modal--header_padding-enter">Вход</p>
+                  </div>
+                  <div class="regist-modal--body">
+                        <input class="regist-modal--body-email-enter" type="email" placeholder="Email">
+                        <input class="regist-modal--body-paswoord-enter" type="password" placeholder="Пароль">
+                      </div>
+                      <p class="regist-modal--body-padding-enter">
+                        Восстановить пароль
+                      </p>
+                        <button type="button" class="regist-modal--body-regist-enter" data-bs-dismiss="modal">Войти</button>
+                        <button type="button" class="regist-modal--body-next-enter" data-bs-dismiss="modal" aria-label="Close">Регистрация</button>
+                  </div>
+                
 
         </header>
         <div class="home-hero">

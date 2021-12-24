@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .cardImg{
     width: 236px;
@@ -20,7 +21,7 @@
 .Cardbox{
     max-width: 236px;
     padding: 10px;
-    height: 359px;
+    // height: 359px;
     margin-left: 75px;
     margin-right: 75px;
 }

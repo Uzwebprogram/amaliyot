@@ -2300,8 +2300,8 @@ body {
   max-width: 420px;
   -webkit-transition: top 1s ease-in-out;
   transition: top 1s ease-in-out;
-  -webkit-transform: translate(-50%, 20%);
-          transform: translate(-50%, 20%);
+  -webkit-transform: translate(-50%, -5%);
+          transform: translate(-50%, -5%);
   border-radius: 20px;
   background-color: white;
   z-index: 2;
@@ -2493,6 +2493,209 @@ body {
     width: 290px;
   }
   .regist-modal--body-next {
+    width: 290px;
+  }
+}
+
+.regist-modal-enter {
+  position: fixed;
+  top: 110px;
+  left: 50%;
+  width: 100%;
+  max-width: 420px;
+  -webkit-transition: top 1s ease-in-out;
+  transition: top 1s ease-in-out;
+  -webkit-transform: translate(-50%, -5%);
+          transform: translate(-50%, -5%);
+  border-radius: 20px;
+  background-color: white;
+  z-index: 2;
+  display: none;
+}
+
+.regist-modal.active {
+  top: 15%;
+}
+
+.regist-modal--header-enter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.regist-modal--header-close-enter {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 120px;
+  margin-left: -20px;
+}
+
+.regist-modal--header_padding-enter {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.regist-modal--body-email-enter {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 155px;
+  margin-bottom: 8px;
+  border: 1px solid #CFD8DC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7B8E98;
+  margin-left: 20px;
+  outline: none;
+}
+
+.regist-modal--body-email-enter:focus {
+  border: 2px solid #FED700;
+}
+
+.regist-modal--body-paswoord-enter {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 155px;
+  margin-bottom: 8px;
+  border: 1px solid #CFD8DC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7B8E98;
+  margin-left: 20px;
+  outline: none;
+}
+
+.regist-modal--body-paswoord-enter:focus {
+  border: 2px solid #FED700;
+}
+
+.regist-modal--body-padding-enter {
+  max-width: 356px;
+  margin-left: 20px;
+  font-family: "Nunito" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7B8E98;
+}
+
+.regist-modal--body-regist-enter {
+  border: none;
+  width: 356px;
+  height: 48px;
+  margin-left: 25px;
+  background-color: #FED700;
+  border-radius: 55px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+}
+
+.regist-modal--body-next-enter {
+  width: 356px;
+  height: 48px;
+  margin-left: 25px;
+  background-color: white;
+  border: 1px solid #7B8E98;
+  border-radius: 55px;
+  margin-bottom: 42px;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.previus {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#overlay.active {
+  display: block;
+}
+
+@media only screen and (max-width: 488px) {
+  .regist-modal-enter {
+    max-width: 343px;
+  }
+  .regist-modal--body-email-enter {
+    padding-right: 90px;
+  }
+  .regist-modal--body-paswoord-enter {
+    padding-right: 90px;
+  }
+  .regist-modal--body-regist-enter {
+    width: 290px;
+  }
+  .regist-modal--body-next-enter {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .regist-modal-enter {
+    max-width: 343px;
+  }
+  .regist-modal--body-email-enter {
+    padding-right: 75px;
+  }
+  .regist-modal--body-paswoord-enter {
+    padding-right: 75px;
+  }
+  .regist-modal--body-regist-enter {
+    width: 290px;
+  }
+  .regist-modal--body-next-enter {
     width: 290px;
   }
 }
@@ -2806,6 +3009,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .cardImg {
@@ -2826,7 +3030,6 @@ body {
 .Cardbox {
   max-width: 236px;
   padding: 10px;
-  height: 359px;
   margin-left: 75px;
   margin-right: 75px;
 }
