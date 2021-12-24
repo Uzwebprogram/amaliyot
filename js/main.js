@@ -2,6 +2,7 @@ let modal_closer = document.querySelector(".close-modal-x")
 let modal = document.querySelector(".m-modal")
 let modal_button_open = document.querySelector(".header-menu")
 
+
 modal_button_open.addEventListener("click", () => {
     modal.style.right = "0%"
 })
@@ -30,6 +31,7 @@ let foodMarket = document.querySelector(".food-market")
 
 function renderFood(data , father) {
     data.map(elem =>{
+
         let box = document.createElement("div")
         box.classList.add("Cardbox")
         let img = document.createElement("img")
