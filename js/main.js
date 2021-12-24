@@ -25,3 +25,30 @@ close_btn.forEach((btn) =>{
         overlay.classList.remove ("active")
     });
 });
+
+let foodMarket = document.querySelector(".food-market")
+
+function renderFood(data , father) {
+    data.map(elem =>{
+        let box = document.createElement("div")
+        box.classList.add("Cardbox")
+        let img = document.createElement("img")
+        img.classList.add("cardImg")
+        let title = document.createElement("h3")
+        title.classList.add("cardTitle")
+        let post = document.createElement("p") 
+        post.classList.add("cardpost")
+        let button = document.createElement("button")
+        button.classList.add("cardbutton")
+        button.textContent = "В корзину"
+        title.textContent = elem.title
+        post.textContent = elem.sum
+        img.setAttribute("src" , elem.imgUrl)
+        box.appendChild(img)
+        box.appendChild(post)
+        box.appendChild(title)
+        box.appendChild(button)
+        father.appendChild(box)
+    })
+}
+renderFood(food , foodMarket)
