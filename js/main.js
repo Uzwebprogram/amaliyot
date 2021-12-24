@@ -54,7 +54,7 @@ function renderFood(data , father) {
             imageboxred.style.display = "block"
             imageboxred.style.width = "24px"
             imageboxred.style.height = "24px"
-            window.localStorage.setItem("tokenBox" , box)
+            window.localStorage.setItem("tokenBox" , JSON.stringify(box))
         })
         imageboxred.addEventListener("click" , ()=>{
             imagebox.style.display = "block"
