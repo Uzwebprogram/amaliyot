@@ -6,6 +6,10 @@ let modal_enter = document.querySelector(".regist-modal-enter")
 let modal_enterClose = document.querySelector(".regist-modal--header-close-enter")
 let modals = document.querySelector(".regist-modal")
 
+
+modal_closer.addEventListener("click" , () =>{
+    modal.style.right = "-100%"
+})
 modal_enterClose.addEventListener("click", ()=>{
     modal_enter.style.display = "none"
     modals.style.display = "block"
