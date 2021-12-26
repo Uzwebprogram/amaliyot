@@ -466,7 +466,7 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:861px){
-    .users{
+    .userlogin-heading{
         display: none;
     }
     .header__input-image{
@@ -476,7 +476,13 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:861px){
-    .users{
+    .userimg{
+        display: none;
+        margin-right: 20px;
+        position: absolute;
+        bottom: -500px;
+    }
+    .userlogin-heading{
         display: none;
     }
     .header__input-image{
@@ -685,7 +691,7 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:744px){
-    .users{
+    .userlogin-heading{
         display: none;
     }
     .header__input-image{
@@ -698,6 +704,15 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:684px){
+    .userimg{
+        display: none;
+        margin-right: 20px;
+        position: absolute;
+        bottom: -500px;
+    }
+    .userlogin-heading{
+        display: none;
+    }
     .users{
         display: none;
     }
@@ -921,6 +936,16 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:627px){
+    
+    .userimg{
+        display: none;
+        margin-right: 20px;
+        position: absolute;
+        bottom: -500px;
+    }
+    .userlogin-heading{
+        display: none;
+    }
     .users{
         display: none;
     }
@@ -1144,7 +1169,13 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:519px){
-    .users{
+    .userimg{
+        display: none;
+        margin-right: 20px;
+        position: absolute;
+        bottom: -500px;
+    }
+    .userlogin-heading{
         display: none;
     }
     .header__image{
@@ -1367,6 +1398,21 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:453px){
+    .userimg{
+        display: none;
+        margin-right: 20px;
+        position: absolute;
+        bottom: -500px;
+    }
+    .userlogin-heading{
+        display: none;
+    }
+    .userimgacitve{
+        display: none;
+    }
+    .userlogin-heading{
+        display: none;
+    }
     .users{
         display: none;
     }
@@ -1591,7 +1637,10 @@ color: #7B8E98;
     }
 }
 @media only screen and (max-width:398px){
-    .users{
+    .userlogin-heading{
+        display: none;
+    }
+    .userimgacitve{
         display: none;
     }
     .header__image{

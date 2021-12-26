@@ -496,7 +496,7 @@
 }
 
 @media only screen and (max-width: 861px) {
-  .users {
+  .userlogin-heading {
     display: none;
   }
   .header__input-image {
@@ -506,7 +506,13 @@
 }
 
 @media only screen and (max-width: 861px) {
-  .users {
+  .userimg {
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -500px;
+  }
+  .userlogin-heading {
     display: none;
   }
   .header__input-image {
@@ -716,7 +722,7 @@
 }
 
 @media only screen and (max-width: 744px) {
-  .users {
+  .userlogin-heading {
     display: none;
   }
   .header__input-image {
@@ -730,6 +736,15 @@
 }
 
 @media only screen and (max-width: 684px) {
+  .userimg {
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -500px;
+  }
+  .userlogin-heading {
+    display: none;
+  }
   .users {
     display: none;
   }
@@ -954,6 +969,15 @@
 }
 
 @media only screen and (max-width: 627px) {
+  .userimg {
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -500px;
+  }
+  .userlogin-heading {
+    display: none;
+  }
   .users {
     display: none;
   }
@@ -1178,7 +1202,13 @@
 }
 
 @media only screen and (max-width: 519px) {
-  .users {
+  .userimg {
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -500px;
+  }
+  .userlogin-heading {
     display: none;
   }
   .header__image {
@@ -1402,6 +1432,21 @@
 }
 
 @media only screen and (max-width: 453px) {
+  .userimg {
+    display: none;
+    margin-right: 20px;
+    position: absolute;
+    bottom: -500px;
+  }
+  .userlogin-heading {
+    display: none;
+  }
+  .userimgacitve {
+    display: none;
+  }
+  .userlogin-heading {
+    display: none;
+  }
   .users {
     display: none;
   }
@@ -1627,7 +1672,10 @@
 }
 
 @media only screen and (max-width: 398px) {
-  .users {
+  .userlogin-heading {
+    display: none;
+  }
+  .userimgacitve {
     display: none;
   }
   .header__image {
@@ -2892,7 +2940,7 @@ body {
   .modal-super-login {
     position: fixed;
     max-width: 300px;
-    left: 70px;
+    left: 50px;
   }
   .modal-super-login-heading {
     padding-left: 10px;
@@ -2905,6 +2953,22 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+  .modal-super-login {
+    position: fixed;
+    max-width: 300px;
+    left: 40px;
+  }
+  .modal-super-login-heading {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+  }
+  .modal-super-login-button {
+    margin-left: 112px;
+  }
+}
+
+@media only screen and (max-width: 368px) {
   .modal-super-login {
     position: fixed;
     max-width: 300px;
