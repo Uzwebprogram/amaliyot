@@ -15,12 +15,6 @@
 </div>
 <section class="section">
     <div class="container">
-      <div class="modal-super-login">
-        <h2 class="modal-super-login-heading">Добро пожаловать !</h2>
-        <p class="modal-super-login-padding">Вы зарегистрировались и теперь можете покупать все, что захотите</p>
-
-        <button class="modal-super-login-button">ОК</button>
-      </div>
         <header class="header">
            <a  href="./index.html"><img class="header__image" src="./image/header-logo.svg" width="191" height="72" alt="home-logo-dog"></a>  
             <div class="header__input">
@@ -29,8 +23,8 @@
             </div>
 
             <div class="header__icon">
-              <a href="./like.html"> <img class="header-atribut-shop" src="./image/header-icon-favorites.svg" alt=""></a>
-              <a href="#"> <img class="header-atribut-like" src="./image/header-icon-cart.svg" alt=""></a>
+              <a href="#"> <img class="header-atribut-shop" src="./image/header-icon-favorites.svg" alt=""></a>
+              <a href="./like.html"> <img class="header-atribut-like" src="./image/header-icon-cart.svg" alt=""></a>
                       <button class="btn" data-target="#modal1"><img class="regist-button-img" src="./image/header-dog-icon.svg" width="22" height="20"  alt="header-dog-icon"></button>
                 </div>
                   <!-- Modal -->
@@ -39,11 +33,10 @@
                         <p class="regist-modal--header_padding">Регистрация</p>
                         <button class="regist-modal--header-close" data-target="#modal1"> <img src="./image/Close.svg" width="17" height="20" alt=""></button>
                     </div>
-                    <form class="regist-modal--body">
-                          <input class="regist-modal--body-email" type="email" placeholder="Email" required>
-                          <input class="regist-modal--body-paswoord" type="password" placeholder="Пароль" required>
-                          <p class="error-data">Эта информация включена!</p>
-                        </form>
+                    <div class="regist-modal--body">
+                          <input class="regist-modal--body-email" type="email" placeholder="Email">
+                          <input class="regist-modal--body-paswoord" type="password" placeholder="Пароль">
+                        </div>
                         <p class="regist-modal--body-padding">
                           Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.
                         </p>
@@ -60,7 +53,6 @@
                   <div class="regist-modal--body">
                         <input class="regist-modal--body-email-enter" type="email" placeholder="Email">
                         <input class="regist-modal--body-paswoord-enter" type="password" placeholder="Пароль">
-                        <p class="error-data-login">ошибка пользователя или пароля!</p>
                       </div>
                       <p class="regist-modal--body-padding-enter">
                         Восстановить пароль
@@ -68,61 +60,15 @@
                         <button type="button" class="regist-modal--body-regist-enter" data-bs-dismiss="modal">Войти</button>
                         <button type="button" class="regist-modal--body-next-enter" data-bs-dismiss="modal" aria-label="Close">Регистрация</button>
                   </div>
-                
-
         </header>
-        <div class="home-hero">
-          <div class="home-hero-left">
-            <h1 class="home-hero-left-heading">Крафтовые лакомства для собак</h1>
-            <p class="home-hero-left-padding">Всегда свежие лакомства ручной работы с доставкой по России и Миру</p>
-            <button class="home-hero-left-button">Каталог</button>
-          </div>
-          <div class="home-hero-right">
-            <img class="home-hero-right-image" src="./image/header-hero.png" width="490" height="320" alt="header-hero">
-          </div>
-        </div>
-        <div class="home-module">
-          <ul class="home-module-item">
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut1">Наборы</a>
-          </li>
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut2">Лакомства</a>
-          </li>
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut3">Аксессуары</a>
-          </li>
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut4">Игрушки</a>
-          </li>
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut5">Рога</a>
-          </li>
-          <li class="home-module-item-list">
-            <a href="#" class="home-module-item-list-atribut6">Масла</a>
-          </li>
-          </ul>
-        </div> 
-    </div>
-
-  </div>
- 
-</section>
 <div class="m-modal">
   <div class="container">
     <div class="close-modal">
       <img class="close-modal-x" width="14" height="14" src="./image/Close.svg" alt="Close">  
-
-      <div class="user-login">
-        <button class="close-modal-x--button">
-          Войти
-        </button>
-        <img class="img-user" src="./image/userlogin.png" width="24" height="24" alt="">
-      </div>
-
-
+      <button class="close-modal-x--button">
+        Войти
+      </button>
     </div>
-
       <ul class="close-modal-item">
         <li class="close-modal-item--list">
           <a class="close-modal-item--list--atribut" href="#">
@@ -185,40 +131,8 @@
 
 
 </div>
-
-<!-- header end -->
-
-
-
-<!-- main start -->
-  <section class="section0">
-    <div class="container">
-      <main class="home-main">
-        <a class="home-main-atribut" href="#">
-          <div class="home-main-atribut-left">
-            <h2 class="home-main-atribut-left-heading">Подарок за первый заказ!</h2>
-            <p class="home-main-atribut-left-padding">Легкое говяжье - пластины</p>
-          </div>
-          <div class="home-main-atribut-right">
-            <img class="home-main-atribut-right-image" src="./image/home-main-reklama-image.png" width="412" height="289" alt="home-main-reklama-image">
-            <img class="home-main-atribut-right-image-mobile" src="./image/home-main-reklama-image-mobile.png" width="304" height="244" alt="home-main-reklama-image-mobile">
-          </div>
-        </a>
-      </main>
-    </div>
-  </section>
-  <!-- main end -->
-
-  <section class="container">
-    <p class="padding-post">Хиты</p>
-    <div class="food-market">
-    </div>
-
-    
-  </section>
-
-  <!-- footer start -->
-  <section class="section1">
+ <!-- footer start -->
+ <section class="section1">
     <div class="container">
       <footer class="footer">
       <div class="footer-logo">
@@ -284,10 +198,6 @@
   <div  id="overlay">
             
   </div>
-  <div  id="overlays">
-            
-  </div>
-  <script src="./js/registratsiya.js"></script>
   <script src="./js/data.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/bootstrap.min.js"></script>

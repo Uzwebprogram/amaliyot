@@ -1,30 +1,15 @@
 let modal_closer = document.querySelector(".close-modal-x")
 let modal = document.querySelector(".m-modal")
 let modal_button_open = document.querySelector(".header-menu")
-let modal_registratisia = document.querySelector(".regist-modal--body-regist")
-let modal_enter = document.querySelector(".regist-modal-enter")
-let modal_enterClose = document.querySelector(".regist-modal--header-close-enter")
-let modals = document.querySelector(".regist-modal")
+
 
 
 modal_closer.addEventListener("click" , () =>{
     modal.style.right = "-100%"
 })
-modal_enterClose.addEventListener("click", ()=>{
-    modal_enter.style.display = "none"
-    modals.style.display = "block"
-})
-modal_registratisia.addEventListener("click", ()=>{
-    modal_enter.style.display = "block"
-    modals.style.display = "none"
-})
 modal_button_open.addEventListener("click", () => {
     modal.style.right = "0%"
 })
-const btns = document.querySelectorAll("[data-target]");
-const close_btn = document.querySelectorAll(".regist-modal--header-close");
-const overlay = document.querySelector("#overlay")
-
 btns.forEach((btn) =>{
     btn.addEventListener("click" , () => {
         document.querySelector(btn.dataset.target).classList.add("active");
@@ -47,14 +32,21 @@ function renderFood(data , father) {
         imagebox.setAttribute("class", "fa-regular fa-heart")
         imageboxred.style.cursor = "pointer"
         imagebox.style.cursor = "pointer"
-        imagebox.addEventListener("click" , ()=>{
+        imagebox.addEventListener("click" , (e)=>{
+            let id = e.target.dataset.uuid
             imageboxred.setAttribute("class" , "fa-solid fa-heart")
             imageboxred.style.color = "red"
             imagebox.style.display = "none"
             imageboxred.style.display = "block"
             imageboxred.style.width = "24px"
             imageboxred.style.height = "24px"
-            window.localStorage.setItem("tokenBox" , JSON.stringify(box))
+            if(imageboxred.style.color == 'red' ) {
+                console.log(box);
+                // window.localStorage.setItem("tokenBox" , JSON.stringify(father.box))
+            }else if (imageboxred.style.display  == "none") {
+                // window.localStorage.removeItem("tokenBox")
+                remove(box);
+            }
         })
         imageboxred.addEventListener("click" , ()=>{
             imagebox.style.display = "block"
