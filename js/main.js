@@ -7,6 +7,10 @@ let modal_button_open = document.querySelector(".header-menu")
 modal_closer.addEventListener("click" , () =>{
     modal.style.right = "-100%"
 })
+login_name.addEventListener("click" , () =>{
+        modal.style.right = "-100%"
+        modal_enter.style.display = "block"
+})
 modal_button_open.addEventListener("click", () => {
     modal.style.right = "0%"
 })
