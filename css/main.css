@@ -496,6 +496,9 @@
 }
 
 @media only screen and (max-width: 861px) {
+  .users {
+    display: none;
+  }
   .header__input-image {
     position: relative;
     left: 500px;
@@ -503,6 +506,9 @@
 }
 
 @media only screen and (max-width: 861px) {
+  .users {
+    display: none;
+  }
   .header__input-image {
     position: relative;
     left: 500px;
@@ -710,6 +716,9 @@
 }
 
 @media only screen and (max-width: 744px) {
+  .users {
+    display: none;
+  }
   .header__input-image {
     position: relative;
     left: 470px;
@@ -721,6 +730,9 @@
 }
 
 @media only screen and (max-width: 684px) {
+  .users {
+    display: none;
+  }
   .header__image {
     margin-top: 30px;
   }
@@ -942,6 +954,9 @@
 }
 
 @media only screen and (max-width: 627px) {
+  .users {
+    display: none;
+  }
   .header__image {
     margin-top: 30px;
   }
@@ -1163,6 +1178,9 @@
 }
 
 @media only screen and (max-width: 519px) {
+  .users {
+    display: none;
+  }
   .header__image {
     margin-top: 30px;
   }
@@ -1384,6 +1402,9 @@
 }
 
 @media only screen and (max-width: 453px) {
+  .users {
+    display: none;
+  }
   .header__input-image {
     position: relative;
     left: 200px;
@@ -1606,6 +1627,9 @@
 }
 
 @media only screen and (max-width: 398px) {
+  .users {
+    display: none;
+  }
   .header__image {
     margin-top: 30px;
   }
@@ -1824,6 +1848,26 @@
     left: 251px;
     top: 10px;
   }
+}
+
+.users {
+  position: relative;
+  top: 60px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.userimg {
+  display: none;
+  margin-right: 20px;
+}
+
+.userlogin-heading {
+  padding-top: 7px;
 }
 
 .section0 {

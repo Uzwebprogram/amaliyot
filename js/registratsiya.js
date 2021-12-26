@@ -58,12 +58,15 @@ let login_name = document.querySelector(".close-modal-x--button")
 let regist_open_button = document.querySelector(".modal-super-login-button")
 let imguser = document.querySelector(".img-user")
 
+let imguserwork = document.querySelector(".userimg")
+let userloginwork = document.querySelector(".userlogin-heading")
 regist_open_button.addEventListener("click", () => {
     login_class.style.display = "none"
     overlay.style.display = "none"
     login_name.textContent = login_email.value
     imguser.style.display = "flex"
-    window.localStorage.setItem(login_name)
+    userloginwork.textContent = login_email.value
+    imguserwork.style.display = "flex"
 })
 login_button.addEventListener("click" ,() =>{
     if (window.localStorage.getItem(login_email.value)&& window.localStorage.getItem(login_email.value) == login_paswoord.value) {
