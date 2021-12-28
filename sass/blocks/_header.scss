@@ -138,6 +138,9 @@ color: #7B8E98;
 .header__image-mobile{
     display: none;
 }
+.modal-container{
+    overflow: scroll;
+}
 @media only screen and (max-width:1006px){
     .nav__link{
         &:active{

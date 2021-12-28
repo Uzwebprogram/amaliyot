@@ -1,0 +1,92 @@
+.home-reklama{
+    display: flex;
+    justify-content: space-around;
+    &-right{
+        text-decoration: none;
+        background-image: url(./../../image/home-reklama-right.png);
+        max-width: 488px;
+        margin-bottom: 44px;
+        height: 220px;
+        border-radius: 20px;
+        &-heading{
+            
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 90%;
+            color: #FFFFFF;
+            margin-left: 42px;
+            margin-right: 246px;
+            padding-top: 56px;
+            margin-bottom: 8px;
+        }
+        &-padding{
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-left: 42px;
+            margin-right: 246px;
+            margin-bottom: 20px;
+        }
+        &-span{
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-bottom: 51px;
+            margin-left: 42px;
+        }
+    }
+
+    &-left{
+        text-decoration: none;
+        background-image: url(./../../image/home-reklama-left.png);
+        max-width: 488px;
+        margin-bottom: 44px;
+        height: 220px;
+        border-radius: 20px;
+        &-heading{
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 90%;
+        color: #FFFFFF;
+        margin-left: 42px;
+        margin-right: 244px;
+        margin-bottom: 16px;
+        padding-top: 68px;
+        }
+        &-padding{
+            max-width: 211px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-left: 42px;
+            margin-bottom: 59px;
+        }
+    }
+}
+@media only screen and (max-width:945px){
+    .home-reklama-left{
+        display: none;
+    }
+    .home-reklama-right{
+        max-width: 358px;
+    }
+}

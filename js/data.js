@@ -140,5 +140,6 @@ let food = [
         "title" : "Lacceti",
         "imgUrl" : "https://media.istockphoto.com/photos/dog-food-in-a-bowl-on-white-background-picture-id499263433?s=612x612",
 
-    }
+    },
+
 ]
