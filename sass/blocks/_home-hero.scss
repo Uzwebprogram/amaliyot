@@ -56,6 +56,112 @@
     margin-top: 100px;
     margin-bottom: 107px;
 }
+.item-username-list-profile-atribut{
+    margin-top: 34px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #1A1A1A;
+    display: flex;
+    margin-bottom: 20px;
+    &::before{
+        content: "";
+        background-image: url(./../../image/profileUser.png);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        right: 5px;
+    }
+    &::after{
+        content: "";
+        background-image: url(./../../image/strelka.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 8px;
+        height: 14px;
+        position: relative;
+        left: 251px;
+        top: 10px;
+    }
+}
+.item-username-list-market-atribut{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #1A1A1A;
+    display: flex;
+    margin-bottom: 20px;
+    &::before{
+        content: "";
+        background-image: url(./../../image/market.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20px;
+        height: 22px;
+        position: relative;
+        right: 5px;
+    }
+    &::after{
+        content: "";
+        background-image: url(./../../image/strelka.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 8px;
+        height: 14px;
+        position: relative;
+        left: 231px;
+        top: 10px;
+    }
+}
+.item-username{
+    display: none;
+}
+.headering{
+    display: none;
+}
+.item-username-list-base-atribut{
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #1A1A1A;
+    display: flex;
+    margin-bottom: 34px;
+    &::before{
+        content: "";
+        background-image: url(./../../image/UserBase.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20px;
+        height: 22px;
+        position: relative;
+        right: 5px;
+    }
+    &::after{
+        content: "";
+        background-image: url(./../../image/strelka.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 8px;
+        height: 14px;
+        position: relative;
+        left: 226px;
+        top: 10px;
+    }
+}
 @media only screen and (max-width:645px){
     .home-hero{
         display: flex;
@@ -87,6 +193,7 @@
                 font-size: 20px;
                 line-height: 24px;
                 color: #1A1A1A;
+                
             }
         }
     }
@@ -244,7 +351,9 @@
             }
     }
     }
+
 }
+
 @media only screen and (max-width:647px){
     .home-module-item{
         width: 100%;

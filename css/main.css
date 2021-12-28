@@ -170,16 +170,23 @@
   display: none;
 }
 
+.modal-container {
+  overflow: scroll;
+}
+
 @media only screen and (max-width: 1006px) {
   .nav__link:active {
     background-color: transparent;
   }
   .headering {
-    width: 380px;
+    width: 360px;
+  }
+  .headerings {
+    width: 360px;
     margin-top: 90px;
   }
   .headerings {
-    width: 380px;
+    width: 360px;
   }
   .item-about-list {
     margin-bottom: 16px;
@@ -3060,6 +3067,129 @@ body {
 .home-hero-right-image {
   margin-top: 100px;
   margin-bottom: 107px;
+}
+
+.item-username-list-profile-atribut {
+  margin-top: 34px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item-username-list-profile-atribut::before {
+  content: "";
+  background-image: url(./../../image/profileUser.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 5px;
+}
+
+.item-username-list-profile-atribut::after {
+  content: "";
+  background-image: url(./../../image/strelka.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8px;
+  height: 14px;
+  position: relative;
+  left: 251px;
+  top: 10px;
+}
+
+.item-username-list-market-atribut {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item-username-list-market-atribut::before {
+  content: "";
+  background-image: url(./../../image/market.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+  position: relative;
+  right: 5px;
+}
+
+.item-username-list-market-atribut::after {
+  content: "";
+  background-image: url(./../../image/strelka.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8px;
+  height: 14px;
+  position: relative;
+  left: 231px;
+  top: 10px;
+}
+
+.item-username {
+  display: none;
+}
+
+.headering {
+  display: none;
+}
+
+.item-username-list-base-atribut {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.item-username-list-base-atribut::before {
+  content: "";
+  background-image: url(./../../image/UserBase.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 22px;
+  position: relative;
+  right: 5px;
+}
+
+.item-username-list-base-atribut::after {
+  content: "";
+  background-image: url(./../../image/strelka.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8px;
+  height: 14px;
+  position: relative;
+  left: 226px;
+  top: 10px;
 }
 
 @media only screen and (max-width: 645px) {

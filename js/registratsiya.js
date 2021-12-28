@@ -60,6 +60,8 @@ let imguser = document.querySelector(".img-user")
 
 let imguserwork = document.querySelector(".userimg")
 let userloginwork = document.querySelector(".userlogin-heading")
+let userbase = document.querySelector(".item-username")
+let headeris = document.querySelector(".headering")
 regist_open_button.addEventListener("click", () => {
     login_class.style.display = "none"
     overlay.style.display = "none"
@@ -67,6 +69,8 @@ regist_open_button.addEventListener("click", () => {
     imguser.style.display = "flex"
     userloginwork.textContent = login_email.value
     imguserwork.style.display = "flex"
+    userbase.style.display = "block"
+    headeris.style.display = "block"
 })
 login_button.addEventListener("click" ,() =>{
     if (window.localStorage.getItem(login_email.value)&& window.localStorage.getItem(login_email.value) == login_paswoord.value) {
